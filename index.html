@@ -1,0 +1,182 @@
+ <!-- ESTILOS -->
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --darkgrey: #191970;
+    --lightgrey: #BFBFBD;
+    --white: #F2F2F2;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--darkgrey);
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    color: var(--white);
+    margin: 30px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 90px;
+}
+
+.username {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    margin: 15px 0;
+}
+
+.link {
+    padding: 15px;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--lightgrey);
+    color: var(--darkgrey);
+}
+
+.link:hover {
+    padding: 13px;
+    border: solid var(--lightgrey) 2px;
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+
+.link:active {
+    padding: 13px;
+    border: solid var(--lightgrey) 2px;
+    background-color: #403A2F;
+    color: var(--white);
+}
+
+.social {
+    text-align: center;
+    font-size: 22px;
+    margin: 40px;
+}
+
+.icon {
+    color: var(--lightgrey);
+    padding: 12px;
+    text-decoration: none;
+}
+
+</style>
+<!-- ESTILOS -->
+ <!-- HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/e9d7fbb943.js" crossorigin="anonymous"></script>
+
+    <title>My Links</title>
+</head>
+<body>
+
+    <div class="container">
+
+   
+    <!-- Profile -->
+
+    <div class="profile">
+
+        <img class="photo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMFvb_ZcsKFm3pRAkAyK7ifG4wW2ytXxuuv368vXcv6mbUkoGkj_1ZOleGEFEV8AYd-ZtmlXn0ktPhs15xUpOs03JouFnwTMt8oCcydLI3n_DmKuadbwuOeymI7WDqhBqR5NaYeGi3Uo-7Spa5LQgNsw2B-1sKxFvXzNQWSJ7Dg-kFwF_hEzM6yoS0/s16000/logo.png" alt="Profile Photo" />
+
+        <span class="username">@osucessotriunfal</span> 
+
+    </div>
+
+    <!-- Links -->
+
+    <div class="links">
+
+        <ul>
+
+            <li><a href="https://codepen.io/cvrative" class="link" target="_blank">
+                <i class="fa-brands fa-codepen"></i> CURSO</a></li>
+
+            
+
+        </ul>
+    </div>
+
+
+    <!-- Social -->
+
+        <div class="social">
+
+            <a href="http://instagram.com/cvrative" target="_blank" class="icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+          
+           <a href="http://instagram.com/cvrative" target="_blank" class="icon">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+          
+          <a href="http://instagram.com/cvrative" target="_blank" class="icon">
+                <i class="fa-brands fa-blogger"></i>
+            </a>
+          
+           <a href="http://instagram.com/cvrative" target="_blank" class="icon">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+          
+            <a href="http://instagram.com/cvrative" target="_blank" class="icon">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <a href="http://linkedin.com/in/cvrative" target="_blank" class="icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://twitter.com/cvrative_" target="_blank" class="icon">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
